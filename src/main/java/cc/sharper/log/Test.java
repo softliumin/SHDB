@@ -18,5 +18,9 @@ public class Test
         log.warning("1111111111");
         log.warning("1111111111");
 
+
+        log.warning("2333");
+        log.warning("2333");
+        log.warning("2333");
     }
 }
