@@ -13,6 +13,10 @@ public class Test
 
         log.info("11111");
         log.warning("1111111111");
+        log.warning("1111111111");
+        log.warning("1111111111");
+        log.warning("1111111111");
+        log.warning("1111111111");
 
     }
 }
