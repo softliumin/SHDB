@@ -2,6 +2,7 @@ package cc.sharper.db;
 
 import java.sql.*;
 
+
 /**
  * Created by liumin3 on 2015/11/17.
  */
@@ -55,8 +56,18 @@ public class Test
             System.out.println(" , CREATED_TIME:"+date);
         }
 
-
-
+//        Boolean isSu = conn.getMetaData().supportsBatchUpdates();
+//
+//        System.out.println(isSu);
+//        st.addBatch("delete from user where id='999' ");
+//        st.addBatch("delete from user where id='999' ");
+//        st.addBatch("delete from user where id='999' ");
+//        st.addBatch("delete from user where id='999' ");
+//        st.addBatch("delete from user where id='999' ");
+//        st.addBatch("delete from user where id='999' ");
+//        int[] count = st.executeBatch();
+//
+//        System.out.println(count.length);
 
 
 //        //删除
